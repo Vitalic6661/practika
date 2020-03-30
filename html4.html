@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css2/jquery-ui.css">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6a89a444bb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css4/css4.css">
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/xml2json.js"></script>
+    <script src="js/jquery.tmpl.min.js"></script>
+    <script src="js/my.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+
+
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class=" col-lg-3 ">
+                <form action="#" class="form">
+                    <input type="text" placeholder="поиск на сайте" class="form__input">
+                    <button type="submit" class="button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                <div class="nav">
+                <button class="about">
+                    <img src="images/about.png" alt="" class="about_img">
+                </button>
+                <button class="delivery">
+                    <img src="images/delivery.png" alt="" class="delivery_img">
+                </button>
+                </div>
+                <div class="content_text">
+                    <div>Товары наши хороши-</div>
+                    <div class="two">развивайтесь малыши!</div>
+                </div>
+            </div>
+            <div class="col-lg-6 ">
+                <img src="images/logo.png" class="logo" alt="logo">
+            </div>
+            <div class="col-lg-3 ">
+                <img src="images/telephone.png" class="telephone" alt="">
+                <img src="images/graphic.png" class="graphic" alt="">
+                <img src="images/bell.png" class="bell" alt="">
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class = "row">
+        <div class = "col-sm-12">
+            <div class="content">
+                <div class="title">
+                <h2 class="madal_title">Оформление заказа</h2>
+                </div>
+                <div class="modal_item">
+                    <div class="fio">ФИО:</div>
+                    <input type="text" class="mod_input" >
+                </div>
+                <div class="modal_item">
+                    <div class="fio">Телефон:</div>
+                    <input type="text" class="mod_input" >
+                </div>
+                <div class="modal_item">
+                    <div class="fio">E-mail:</div>
+                    <input type="text" class="mod_input" >
+                </div>
+                <div class="modal_item">
+                    <div class="fio">Ваш заказ:</div>
+                </div>
+                <div id="content">
+
+                </div>
+                <a href="#" class="button_of">
+                    <img src="images2/oformit.png" alt="" class="of_img">
+                    <span class="oform_text">оформить заказ</span>
+                </a>
+                <div class="cont">
+                    <div class="cont_title">Регистрация обязательна для следующих действий:</div>
+                    <ul>
+                        <li>активация скидочного купона</li>
+                        <li>получение бонусных баллов за покупки</li>
+                        <li>оплаты заказа через интернет</li>
+                        <li>оформление заказа на организацию</li>
+                    </ul>
+                </div>
+                <div class="radio">
+                    <div class="radio_item">
+                        <input type="radio" class="radioButton" checked name="raz">
+                        <div class="radio_text">покупка с регистрацией</div>
+                    </div>
+                    <div class="radio_item">
+                        <input type="radio" class="radioButton" checked name="raz">
+                        <div class="radio_text">вход для зарегистрированных пользователей</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class=" footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <img src="images/twogusya.png" class="gusi" alt="">
+            </div>
+            <div class="col-sm-3">
+                <img src="images/telchik.png" class="telchik" alt="">
+            </div>
+            <div class="col-sm-3">
+                <ul class="social d-flex justify-content-center">
+                    <li class="menu_item">
+                        <a href="#"><i class="fab fa-twitter" style="color: black;"></i></a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#"><i class="fab fa-vk" style="color: black;" ></i></a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#"><i class="fab fa-facebook" style="color: black;"></i></a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#"><i class="fab fa-instagram" style="color: black;"></i></a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#"><i class="fab fa-telegram-plane" style="color: black;"></i></a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#"><i class="fab fa-youtube"style="color: black;"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="col-lg-3">
+                <img src="images/gusifooter.png" class="gusifooter" alt="">
+            </div>
+        </div>
+    </div>
+</footer>
+<script id="cartTmpl" type="text/x-jquery-tmpl">
+{{each cart}}
+     <div class="mod_item">
+            {{if image}}
+                    <img src="img/zakaz.png" alt="" class="zakaz">
+            {{/if}}
+                    <div class="zakaz_title">
+                        <a href="html2.html#cat_id=2&id=${id}">${title}</a>
+                        </div>
+                    <div class="kolvo">${qty}шт</div>
+                    <div class="zakaz_price">${price*qty}</div>
+                    <img src="images2/otmena.png" alt="" class="otmena">
+                </div>
+ {{/each}}
+</script>
+<script>
+    new MyShop("products.xml","cart");
+</script>
+</body>
+</html>

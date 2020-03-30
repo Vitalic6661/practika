@@ -1,0 +1,500 @@
+@font-face {
+    font-family: 'RotondaBold';
+    src: url('../fonts/RotondaBold.svg#RotondaBold') format('svg'),
+    url('../fonts/RotondaBold.ttf') format('truetype'),
+    url('../fonts/RotondaBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*, *:after, *:before {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'RotondaBold', sans-serif;
+    margin: 0;
+    background-color: #fbf3eb;
+    font-size: 15px;
+    color: #090000;
+    display: flex;
+    flex-direction: column;
+}
+
+html, body{
+    height: 100%;
+}
+
+.button {
+    height: 28px;
+    width: 28px;
+    position: absolute;
+    top: 34px;
+    left: 256px;
+    background: #f7f7f7;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.content {
+    flex: 1 0 auto;
+}
+.header{
+    background: url("../images/shapka.png") center repeat-x;
+    margin-top:0;
+    background-size: cover;
+    max-height:237px;
+    z-index: 1000;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+.form__input{
+    position: relative;
+    display: block;
+    margin: 31px auto 0 50px;
+    font-family: 'RotondaBold', sans-serif;
+    background: #f3f3f3;
+    border-radius: 20px;
+    width: 221px;
+    height: 32px;
+    padding-left: 17px;
+    outline: 0;
+    border:  0;
+
+}
+.logo{
+    display: block;
+    margin: 35px auto;
+
+}
+.about {
+    border: 0;
+    background-color: #eff5f8;
+    position: relative;
+    border-radius: 25px;
+    padding: 0;
+    cursor: pointer;
+    top: 12px;
+    left: 40px;
+    margin: 10px;
+}
+.delivery {
+
+    border: 0;
+    background-color: #eff5f8;
+    position: relative;
+    border-radius: 20px;
+    padding: 0;
+    cursor: pointer;
+    top: 11px;
+    left: 23px;
+    margin: 10px;
+}
+.item {
+    height: 330px;
+}
+.content_text{
+    width: 208px;
+    margin-left: 56px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #004a77;
+    text-shadow: 4px 0 4px #fff,
+    0 4px 4px #fff,
+    -4px 0 4px #fff,
+    0 -4px 4px #fff;
+}
+.two{
+    font-size: 15px;
+    color: #004a77;
+}
+.telephone{
+    margin: 34px auto ;
+
+}
+.graphic{
+    margin-top: 10px ;
+}
+.bell{
+    margin-top: 10px ;
+}
+.catalog{
+    margin: 0;
+    background: #fbf3eb;
+}
+.pram{
+    float: left;
+
+    padding-top: 40px;
+    margin-left:140px;
+}
+.pram1{
+    float: left;
+    padding-top: 40px;
+}
+.pram2{
+    display: block;
+    position: relative;
+    float: left;
+    padding-top: 40px;
+}
+
+.title{
+    font-size: 15px;
+    color: #004a77;
+    padding-top: 70px;
+    margin-left: 220px;
+}
+.text{
+    font-size: 10px;
+    color: #2b2726;
+    padding-top: 25px;
+    margin-left: 145px;
+    text-align: left;
+}
+.title_furniture{
+    font-size: 15px;
+    color: #004a77;
+    padding-top: 55px;
+    margin-left: 220px;
+}
+.text_fur{
+    font-size: 10px;
+    color: #2b2726;
+    padding-top: 25px;
+    margin-left: 145px;
+    text-align: left;
+}
+.title_carseat{
+    font-size: 15px;
+    color: #004a77;
+    padding-top: 65px;
+    margin-left: 145px;
+}
+.text_car{
+    font-size: 10px;
+    padding-top: 25px;
+    color: #2b2726;
+    margin-left: 145px;
+    text-align: left;
+}
+.title_winter{
+    font-size: 15px;
+    color: #004a77;
+    padding-top: 60px;
+    margin-left: 145px;
+}
+.text_winter{
+    font-size: 10px;
+    width: 225px;
+    color: #2b2726;
+    padding-top: 25px;
+    margin-left: 145px;
+    text-align: left;
+}
+.title_kids{
+    font-size: 15px;
+    color: #004a77;
+    padding-top: 55px;
+    margin-left: 85px;
+}
+.text_kids{
+    font-size: 10px;
+    color: #2b2726;
+    padding-top: 15px;
+    text-align: left;
+}
+.title_pregrant{
+    font-size: 15px;
+    color: #004a77;
+    padding-top: 65px;
+   margin-left: 85px;
+}
+.text_pregrant{
+    font-size: 10px;
+    color: #2b2726;
+    text-align: left;
+}
+.preg {
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+}
+.title_sale{
+    font-size: 15px;
+    color: #004a77;
+      width: 140px;
+    padding-top: 55px;
+    margin-left: 85px;
+}
+.text_sale{
+    font-size: 10px;
+    color: #2b2726;
+    padding-top: 25px;
+    text-align: left;
+}
+.footer_a {
+    font-size: 30px;
+}
+.title_hygiene{
+     font-size: 15px;
+     color: #004a77;
+     padding-top: 65px;
+     margin-left: 85px;
+ }
+.text_hygiene{
+    font-size: 10px;
+    color: #2b2726;
+    padding-top: 25px;
+    text-align: left;
+}
+.title_toys{
+    font-size: 15px;
+    color: #004a77;
+    padding-top: 55px;
+    margin-left: 85px;
+}
+.text_toys{
+    font-size: 10px;
+    color: #2b2726;
+    padding-top: 15px;
+    text-align: left;
+}
+.text_games{
+    font-size: 10px;
+    color: #2b2726;
+    padding-top: 25px;
+    text-align: left;
+}
+.title_mother{
+    font-size: 15px;
+    color: #004a77;
+      width: 115px;
+    padding-top: 50px;
+    margin-left: 85px;
+}
+.text_mother{
+    font-size: 10px;
+    color: #2b2726;
+    padding-top: 15px;
+    text-align: left;
+}
+.basket{
+    position: absolute;
+    background: #ffffff;
+    border: 0;
+    top: 150px;
+    border-radius: 55px;
+    width: 0;
+    height: 0;
+    padding-top: 200px;
+}
+.buton{
+    border: 0;
+    background-color: #eff5f8;
+    position: relative;
+    border-radius: 55px;
+    padding: 0;
+    cursor: pointer;
+    bottom: 55px;
+    left: 60px;
+}
+.brend{
+    padding-left: 25px;
+}
+.news_info{
+    left: 20px;
+    position: relative;
+    width: 100%;
+}
+.title_news{
+    position: absolute;
+    font-size: 15px;
+    color: #004a77;
+    width: 140px;
+    left: 30px;
+    top: 20px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+.text_news{
+    font-size: 15px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    width: 100%;
+    color: #004a77;
+}
+.text_news2{
+    font-size: 13px;
+    position: relative;
+    bottom: 70px;
+    left: 30px;
+    width: 100%;
+}
+.name1{
+    font-size: 13px;
+    color: #010101;
+    text-decoration: underline;
+    position: relative;
+    top: -400px;
+    left: 6px;
+}
+.name2 {
+    font-size: 13px;
+    color: #010101;
+    text-decoration: underline;
+    position: relative;
+    top: -300px;
+    left: 62px;
+}
+.t{
+    position: relative;
+    color: #004a77;
+    font-size: 13px;
+    top: -380px;
+    left: 6px;
+}
+.tt {
+    position: relative;
+    color: #004a77;
+    font-size: 13px;
+    top: -265px;
+    left: -5px;
+    width: 100%;
+}
+.ttt {
+    position: relative;
+    color: #004a77;
+    font-size: 13px;
+    top: -275px;
+    left: 30px;
+}
+.ttext {
+    position: relative;
+    top: -375px;
+    left: 5px;
+    color: #1b1e21;
+    font-size: 13px;
+    width: 200px;
+}
+.tttext {
+    position: relative;
+    top: -262px;
+    left: -5px;
+    color: #1b1e21;
+    font-size: 13px;
+    width: 200px;
+}
+.date1{
+    color: #ffffff;
+    font-size: 13px;
+    position: absolute;
+    top: 69px;
+    left: 30px;
+    width: 100%;
+}
+.date2{
+    color: #ffffff;
+    font-size: 13px;
+    position: absolute;
+    top: 240px;
+    left: 30px;
+    width: 100%;
+}
+.skidka{
+    display: block;
+    position: absolute;
+
+    top:  1600px;
+    left: 455px;
+}
+.information{
+    background: #fbf3eb;
+}
+.about_mag{
+    margin: 0 auto;
+    font-size: 15px;
+    color: #004a77;
+    padding-left: 138px;
+    padding-bottom: 10px;
+}
+.infa{
+    width: 649px;
+    font-size: 13px;
+    padding-left: 138px;
+}
+.work{
+    position: relative;
+    margin-left: 20px;
+ margin-bottom: 100px;
+    bottom: 300px;
+}
+.like{
+    position: relative;
+    float: left;
+    left: 138px;
+}
+hr{
+    height: 7px;
+    background:url("../images/poloska.png");
+}
+
+.footer{
+    background-size: cover;
+    background: #fbf3eb url("../images/foter.png");
+    height: 180px;
+    margin-top: -34px;
+    margin-bottom: 0;
+}
+.gusi{
+    position: relative;
+    top: 95px;
+    left: 138px;
+}
+.telchik{
+    position: relative;
+    top: 110px;
+
+}
+ul,li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.menu_item{
+    color: #afcede;
+    font-size: 30px;
+    display: inline-block;
+    margin: 0 3px;
+}
+.social{
+    display: inline;
+    color: #afcede;
+    position: relative;
+    top: 100px;
+    cursor: pointer;
+    right: 72px;
+}
+a{
+    color: #1b1e21;
+    font-size: 13px;
+}
+.gusifooter{
+    position:relative ;
+    bottom: 40px;
+    right: 110px;
+}
+.wrapper{
+    min-height: 100%;
+
+}
+
